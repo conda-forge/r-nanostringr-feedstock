@@ -1,11 +1,11 @@
-About r-nanostringr
-===================
+About r-nanostringr-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nanostringr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/OVCARE/nanostringr, https://ovcare.github.io/nanostringr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nanostringr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides quality control (QC), normalization, and batch effect correction operations for 'NanoString nCounter' data, Talhouk et al. (2016) <doi:10.1371/journal.pone.0153844>.  Various metrics are used to determine which samples passed or failed QC.  Gene expression should first be normalized to housekeeping genes, before a reference-based approach is used to adjust for batch effects.  Raw NanoString data can be imported in the form of Reporter Code Count (RCC) files.
 

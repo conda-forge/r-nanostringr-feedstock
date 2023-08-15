@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nanostringr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nanostringr/nanostringr_{{ version }}.tar.gz
-  sha256: 6ba128f6cde123d5685e6ea8b12a225f31346971b8f829dbeb269991f035c435
+  sha256: ebacf4cc8ba7a87bb62e87d8974d18533174ebc156f8ab62c24386f798573bea
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

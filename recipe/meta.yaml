@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nanostringr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nanostringr/nanostringr_{{ version }}.tar.gz
-  sha256: 0689b9a8875188f557fdfbc9abc5823a94b2105b40cce911e41bdd6fdf4004ff
+  sha256: 04e47ba3b8b54747fea19b4ffb2b5a414ae52aa05c06721b94caf6e87f943dd9
 
 build:
   number: 0
